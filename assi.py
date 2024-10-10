@@ -2,7 +2,7 @@ from openai import OpenAI
 import time
 
 
-API_KEY = "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"
+API_KEY = "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"
 client = OpenAI(api_key=API_KEY)
 
 assistant = client.beta.assistants.create(
