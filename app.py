@@ -1,5 +1,4 @@
 from flask import render_template, Flask, redirect, request
-import pandas as pd
 
 
 @app.route('/')
