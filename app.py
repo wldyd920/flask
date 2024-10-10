@@ -2,7 +2,7 @@ from flask import render_template, Flask, redirect, request
 from datetime import datetime
 import pandas as pd
 from openai import OpenAI
-import assi.py
+from assi import chat
 
 app = Flask(__name__)
 
