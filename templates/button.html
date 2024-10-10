@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+HTML로 버튼 만들기
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.div1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    background-color:#384E80;
+}
+
+.div1:hover {
+    background-color:#0a5021;
+}
+</style>
+
+<body>
+
+    <div class='div1' onclick='divBtn();'></div>
+
+</body>
+</html>
+
+<script>
+function divBtn() {
+    alert('클릭 이벤트 입니다 !!');
+}
+</script>
