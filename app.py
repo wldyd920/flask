@@ -1,7 +1,7 @@
 from flask import render_template, Flask, redirect, request
 from datetime import datetime
 import pandas as pd
-from assi import chat
+from openai import OpenAI
 
 app = Flask(__name__)
 
